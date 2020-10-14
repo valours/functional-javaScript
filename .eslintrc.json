@@ -4,16 +4,10 @@
     "eslint:recommended",
     "plugin:react/recommended"
   ],
-  "rules": {
-    "react/display-name": 0,
-    "react/prop-types": 0
-  },
+  "rules": {},
   "env": {
-    "browser": true
+    "browser": true,
+    "amd": true
   },
-  "settings": {
-    "react": {
-      "version": "16.0"
-    }
-  }
+  "settings": {}
 }
